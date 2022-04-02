@@ -1,30 +1,3 @@
-  314  code .
-  315  cd ..
-  316  cd ..
-  317  git add .
-  318  git commit -m "App Complete"
-  319  git push
-  320  git add .
-  321  git commit -m "readme"
-  322  git push
-  323  git add .
-  324  git commit -m "More Changes"
-  325  git push
-  326  git add .
-  327  git commit -m ""
-  328  git commit -m " "
-  329  git commit -m " " "
-  330  git push
-  331  conda activate dev
-  332  ls
-  333  cd Desktop/Fintech-Workspace/fintech-spring-summer/
-  334  ls
-  335  cd Module-Challenge-2/Starter_Code/loan_qualifier_app/
-  336  cd ..
-  337  cd ..
-  338  git add .
-  339  git commit -m " Me "
-  340  git push
   341  clear
   342  cd Starter_Code/loan_qualifier_app/
   343  python app.py
@@ -48,3 +21,30 @@
   361  git commit -m "Updated"
   362  git push
   363  history 50 > terminal_history.txt
+  364  git add .
+  365  git commit -m "Finished"
+  366  git push
+  367  git add .
+  368  git commit -m "pic"
+  369  git push
+  370  git add .
+  371  git commit -m "image"
+  372  git push
+  373  git add .
+  374  git commit -m "image"
+  375  git push
+  376  conda activate dev
+  377  python app.py
+  378  cd Desktop/
+  379  cd Fintech-Workspace/fintech-spring-summer/
+  380  ls
+  381  cd Module-Challenge-2/Starter_Code/loan_qualifier_app/
+  382  ls
+  383  cd ../..
+  384  git add .
+  385  git commit -m "Comments Added"
+  386  git push
+  387  git add .
+  388  git commit -m "Expanded detail"
+  389  git push
+  390  history 50 > terminal_history.txt
