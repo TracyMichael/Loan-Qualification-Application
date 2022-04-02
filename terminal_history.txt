@@ -1,10 +1,3 @@
-  341  clear
-  342  cd Starter_Code/loan_qualifier_app/
-  343  python app.py
-  344  conda activate dev
-  345  ls
-  346  cd Desktop/Fintech-Workspace/fintech-spring-summer/
-  347  ls
   348  cd Module-Challenge-2/
   349  git add .
   350  git commit -m "Mostly Done"
@@ -48,3 +41,10 @@
   388  git commit -m "Expanded detail"
   389  git push
   390  history 50 > terminal_history.txt
+  391  git add .
+  392  git commit -m "Final"
+  393  git push
+  394  git add .
+  395  git commit -m "remove a file"
+  396  git push
+  397  history 50 > terminal_history.txt
