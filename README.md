@@ -27,7 +27,7 @@ from pathlib import Path
 
 Further details denoting requirements and verions are available in the requirements file.
 
-[Requirements](./Starter_Code/loan_qualifier_app/requirements.txt)
+[Requirements](github.com/<TracyMichael>/<Module-Challenge-2>/./Starter_Code/loan_qualifier_app/requirements.txt)
 
 
 ---
