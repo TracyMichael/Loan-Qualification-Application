@@ -1,0 +1,50 @@
+  309  python -V
+  310  cd Desktop/Fintech-Workspace/fintech-spring-summer/
+  311  ls
+  312  cd Module-Challenge-2/Starter_Code/loan_qualifier_app/
+  313  ls
+  314  code .
+  315  cd ..
+  316  cd ..
+  317  git add .
+  318  git commit -m "App Complete"
+  319  git push
+  320  git add .
+  321  git commit -m "readme"
+  322  git push
+  323  git add .
+  324  git commit -m "More Changes"
+  325  git push
+  326  git add .
+  327  git commit -m ""
+  328  git commit -m " "
+  329  git commit -m " " "
+  330  git push
+  331  conda activate dev
+  332  ls
+  333  cd Desktop/Fintech-Workspace/fintech-spring-summer/
+  334  ls
+  335  cd Module-Challenge-2/Starter_Code/loan_qualifier_app/
+  336  cd ..
+  337  cd ..
+  338  git add .
+  339  git commit -m " Me "
+  340  git push
+  341  clear
+  342  cd Starter_Code/loan_qualifier_app/
+  343  python app.py
+  344  conda activate dev
+  345  ls
+  346  cd Desktop/Fintech-Workspace/fintech-spring-summer/
+  347  ls
+  348  cd Module-Challenge-2/
+  349  git add .
+  350  git commit -m "Mostly Done"
+  351  git push
+  352  git add .
+  353  git commit -m "Mostly Done"
+  354  git push
+  355  git add .
+  356  git commit -m "Most Done"
+  357  git push
+  358  history 50 > terminal_history.txt
