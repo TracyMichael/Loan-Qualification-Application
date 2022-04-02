@@ -6,20 +6,60 @@ This application is solely for the purpose of find qualifying loans for individu
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+
+**Languages Required:** *Python*
+
+**Libraries Required:** *Fire, Questionary,CSV, Sys, & PathLib*
+
+Before running the application the following Libraries will need to be imported:
+
+```python
+import csv
+import sys
+import fire
+import questionary
+from pathlib import Path
+```
+
+
+Further detail denoting requirements and verions is available in the requirements file.
+
+[Requirements](./Starter_Code/loan_qualifier_app/requirements.txt)
+
 
 ---
 
 ## Installation Guide
 
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+Install the requirements for the Loan Qualifying Application using the text file in the loan_qualifier_app folder as follows:
+
+
+```python
+
+pip install -r requirements.txt 
+
+```
+
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+
+**Use the loan qualifier application from your terminal as follows.**
+
+*In the terminal enter the following information:*
+
+    1. Enter a file path to a rate-sheet
+    2. What's your credit score?
+    3. What's your current amount of monthly debt?
+    4. What's your total monthly income?
+    5. What's your desired loan amount?
+    6. What's your home value?
+    7. Enter a file path for saved data
+
+![LQA](Images/Loan_Qualifier_App.Png)
 
 ---
 
