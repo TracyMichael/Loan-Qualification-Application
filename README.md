@@ -27,7 +27,7 @@ from pathlib import Path
 
 Further details denoting requirements and verions are available in the requirements file.
 
-[Requirements](github.com/<TracyMichael>/<Module-Challenge-2>/./Starter_Code/loan_qualifier_app/requirements.txt)
+[Requirements](./Starter_Code/loan_qualifier_app/requirements.txt)
 
 
 ---
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 **A display of the Terminal is below**
 
-![LQA](Starter_Code/loan_qualifier_app/images/Loan_Qualifier_App.png)
+![LQA](github.com/TracyMichael/Module-Challenge-2/Starter_Code/loan_qualifier_app/images/Loan_Qualifier_App.png)
 
 
 ---
