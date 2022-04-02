@@ -1,8 +1,3 @@
-  309  python -V
-  310  cd Desktop/Fintech-Workspace/fintech-spring-summer/
-  311  ls
-  312  cd Module-Challenge-2/Starter_Code/loan_qualifier_app/
-  313  ls
   314  code .
   315  cd ..
   316  cd ..
@@ -48,3 +43,8 @@
   356  git commit -m "Most Done"
   357  git push
   358  history 50 > terminal_history.txt
+  359  git add .
+  360  git committ -m "Updated"
+  361  git commit -m "Updated"
+  362  git push
+  363  history 50 > terminal_history.txt
