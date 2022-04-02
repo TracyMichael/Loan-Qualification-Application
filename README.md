@@ -51,9 +51,21 @@ pip install -r requirements.txt
 
 
 
-### Use the loan qualifier application from your terminal as follows:
+### **For Coding Purposes:** Use the loan qualifier application from your terminal as follows:
+
+Comment placements are listed above each section of the application.  Information can be used to explain each function and/or import within the application.
+
+1. The application intially imports different modules that will be useful.
+
+    -There are various files that used to filter the main loan list.
+
+2. Functions are defined to filter the list based on the user information.  Explanations of each Library and/or Import is available in the comment section of the application. Some functions are directly connected to user input through the Command Line Interface (Questionary & Fire), while others have purposes that build the application from a different persepctive.
+
+3. The sub files are used to filter the loan list, import/export csv files into the application, and/or calculate relative ratios or calculations.
 
 
+
+### **For Users:** Use the loan qualifier application from your terminal as follows:
 
 *In the terminal you will be prompted to answer or fill in the following questions or commands in the order listed below.  The provided information will ultimately provide a list of qualifying loans based on the user inputs:*
 
