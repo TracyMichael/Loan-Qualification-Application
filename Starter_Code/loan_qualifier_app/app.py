@@ -6,6 +6,7 @@ This is a command line application to match applicants with qualifying loans.
 Example:
     $ python app.py
 """
+
 import sys
 import fire
 import questionary
@@ -34,7 +35,7 @@ def load_bank_data():
     csvpath = questionary.text("Enter a file path to a rate-sheet (.csv):").ask()
     csvpath = Path(csvpath)
     if not csvpath.exists():
-        sys.exit(f"Oops! Can't find this path: {csvpath}")
+        sys.exit(f"Ooops Cannot find this path:{csvpath}")
 
     return load_csv(csvpath)
 
