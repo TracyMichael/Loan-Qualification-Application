@@ -5,6 +5,9 @@ This script filters a bank list by the user's minimum credit score.
 
 """
 
+# Credit scores becomes active in the application and this function can be used to filter the master bank loan list.
+
+
 
 def filter_credit_score(credit_score, bank_list):
     """Filters the bank list by the mininim allowed credit score set by the bank.

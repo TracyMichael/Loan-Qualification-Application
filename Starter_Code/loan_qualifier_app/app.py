@@ -6,6 +6,11 @@ This is a command line application to match applicants with qualifying loans.
 Example:
     $ python app.py
 """
+# The following Imports will import Library's that will be needed for the application.
+# CSV imports and exports CSV files, sys will be used to exit the application if needed,
+# Fire converts the application code into a Command Line Interface,
+# Questionary allows for user input from the terminal into the application,
+# Path allows us to use the paths of folders and documents within the application.
 
 import csv
 import sys
@@ -20,11 +25,16 @@ from qualifier.utils.calculators import (
     calculate_loan_to_value_ratio,
 )
 
+
+# The Filters will be used to remove pieces of data based on the parameters which will be input by the user.
+
+
 from qualifier.filters.max_loan_size import filter_max_loan_size
 from qualifier.filters.credit_score import filter_credit_score
 from qualifier.filters.debt_to_income import filter_debt_to_income
 from qualifier.filters.loan_to_value import filter_loan_to_value
 
+# The following function will load the CSV file based on where the user points the questionary input to.
 
 def load_bank_data():
     """Ask for the file path to the latest banking data and load the CSV file.
@@ -39,6 +49,10 @@ def load_bank_data():
         sys.exit(f"Ooops Cannot find this path:{csvpath}")
 
     return load_csv(csvpath)
+
+# "This function get_applicant_info()" will use questionary to prompt questions that the user will input.
+# The users input will prompt the next question.  Some questions require the user to press Enter while others will populate immediately after input.
+
 
 
 def get_applicant_info():
@@ -62,7 +76,8 @@ def get_applicant_info():
 
     return credit_score, debt, income, loan_amount, home_value
 
-
+# The function will upload the Users input so that the loan csv (daily_rate_sheet.csv) will filter out any loans that wouldn't be granted to the user. 
+  
 def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_value):
     """Determine which loans the user qualifies for.
 
@@ -103,6 +118,9 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
     return bank_data_filtered
 
+# The Save_qualifying_loans funciton creates a input for the user to export a CSV for possible loans.
+# If there are no qualifying loans the user will be notified and the application will be exited using sys.exit.
+
 
 def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
@@ -123,6 +141,9 @@ def save_qualifying_loans(qualifying_loans):
         save_csv(Path(csvpath), qualifying_loans, header)
 
 
+# The following function will be within the fire function and runs the script from start to finish.
+# All parts of the application are brought together within the run() funciton to run with fire.
+
 def run():
     """The main function for running the script."""
 
@@ -140,6 +161,7 @@ def run():
     # Save qualifying loans
     save_qualifying_loans(qualifying_loans)
 
+# Fire makes all the functions available in the command line using the function below.
 
 if __name__ == "__main__":
     fire.Fire(run)

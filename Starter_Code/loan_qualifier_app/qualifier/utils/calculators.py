@@ -6,6 +6,7 @@ determine loan qualifications.
 
 """
 
+# The following Function uses the users input to determine the monthly debt ratio of the individual.
 
 def calculate_monthly_debt_ratio(monthly_debt_payment, monthly_income):
     """Calculates users monthly debt to income ratio.
@@ -20,6 +21,7 @@ def calculate_monthly_debt_ratio(monthly_debt_payment, monthly_income):
     monthly_debt_ratio = int(monthly_debt_payment) / int(monthly_income)
     return monthly_debt_ratio
 
+# The following Function uses the users input to determine the loan to value ratio of the individual.
 
 def calculate_loan_to_value_ratio(loan_amount, home_value):
     """Calculates users loan to value ratio based on inputs.

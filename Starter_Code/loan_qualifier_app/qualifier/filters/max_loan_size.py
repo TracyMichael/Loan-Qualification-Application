@@ -6,6 +6,7 @@ against the bank's maximum loan size.
 
 """
 
+# Maximum loan size will be appended to the loan_size_approval_list and used to filter the master bank loan list.
 
 def filter_max_loan_size(loan_amount, bank_list):
     """Filters the bank list by the maximum allowed loan amount.

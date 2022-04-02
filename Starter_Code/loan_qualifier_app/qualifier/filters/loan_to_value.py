@@ -6,6 +6,7 @@ to home value ratio.
 
 """
 
+# Loan to Value will become active in the application and this function can be used to filter the master bank loan list.
 
 def filter_loan_to_value(loan_to_value_ratio, bank_list):
     """Filters the bank list by the maximum loan to value ratio.

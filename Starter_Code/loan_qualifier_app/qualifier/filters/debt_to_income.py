@@ -6,6 +6,7 @@ maximum debt-to-income ratio.
 
 """
 
+# Debt to Income will become active in the application and this function can be used to filter the master bank loan list.
 
 def filter_debt_to_income(monthly_debt_ratio, bank_list):
     """Filters the bank list by the maximum debt-to-income ratio allowed by the bank.
