@@ -47,7 +47,7 @@ pip install -r requirements.txt
 ## Usage
 
 
-**Use the loan qualifier application from your terminal as follows.**
+### Use the loan qualifier application from your terminal as follows.
 
 *In the terminal enter the following information:*
 
@@ -59,7 +59,10 @@ pip install -r requirements.txt
     6. What's your home value?
     7. Enter a file path for saved data
 
-![LQA](Images/Loan_Qualifier_App.Png)
+**A display of the Terminal is below**
+
+![LQA](Starter_Code/loan_qualifier_app/images/Loan_Qualifier_App.png)
+
 
 ---
 
