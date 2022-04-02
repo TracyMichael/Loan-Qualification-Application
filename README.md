@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 **A display of the Terminal is below**
 
-![LQA](github.com/TracyMichael/Module-Challenge-2/Starter_Code/loan_qualifier_app/images/Loan_Qualifier_App.png)
+![LQA](https://github.com/TracyMichael/Module-Challenge-2/blob/main/Starter_Code/loan_qualifier_app/Images/Loan_Qualifier_App.png)
 
 
 ---
