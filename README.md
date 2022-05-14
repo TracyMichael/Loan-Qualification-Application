@@ -79,7 +79,7 @@ Comment placements are listed above each section of the application.  Informatio
 
 **A display of the Terminal is below**
 
-![LQA](https://github.com/TracyMichael/Module-Challenge-2/blob/main/Starter_Code/loan_qualifier_app/Images/Loan_Qualifier_App.png)
+![LQA](./Starter_Code/loan_qualifier_app/Images/Loan_Qualifier_App.png)
 
 
 ---
