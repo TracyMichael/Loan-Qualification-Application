@@ -1,4 +1,4 @@
-# Module 2 Challenge (Loan Qualifier App)
+#Loan Qualifier App
 
 This application is solely for the purpose of find qualifying loans for individuals.  
 
